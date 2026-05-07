@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visual Alchemy — Photography Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Animated grain texture overlay -->
+  <div class="grain"></div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="header-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-logo">VA</div>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-badge">Commercial · Licensed · 8K</div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero">
+      <div class="hero-eyebrow">
+        <span class="line-accent"></span>
+        <span>Photorealistic Stock Photography</span>
+        <span class="line-accent"></span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-row">Visual</span>
+        <span class="title-row gold italic">Alchemy</span>
+      </h1>
+      <p class="hero-sub">
+        A curated collection of high-resolution commercial imagery —<br/>
+        crafted with light, precision &amp; authentic storytelling.
+      </p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn-primary">
+          <span>View Portfolio</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        </a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="stat-val">10</span>
+        <span class="stat-key">Featured Works</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-val">8K</span>
+        <span class="stat-key">Resolution</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-val">16:9</span>
+        <span class="stat-key">Widescreen</span>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <span class="stat-val">100%</span>
+        <span class="stat-key">Original</span>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </header>
+
+  <!-- ===================== PORTFOLIO ===================== -->
+  <section id="portfolio" class="portfolio">
+
+    <div class="portfolio-header">
+      <div class="portfolio-header-left">
+        <span class="label">— Selected Works</span>
+        <h2 class="portfolio-title">The Collection</h2>
+      </div>
+      <p class="portfolio-desc">
+        Every image balances technical perfection with commercial versatility.<br/>
+        All works are available for stock licensing.
+      </p>
+    </div>
+
+    <!-- GRID: All cards use strict 16:9 aspect ratio -->
+    <div class="gallery">
+
+      <!-- ── ROW 1: one full-width hero image ── -->
+      <div class="card card-hero">
+        <div class="card-img">
+          <img src="1.jpg" alt="Morning Cappuccino" loading="lazy" />
+          <div class="card-overlay">
+            <span class="card-cat">Food &amp; Beverage</span>
+            <h3 class="card-name">Morning Cappuccino</h3>
+            <p class="card-desc">Warm café ambiance captured in golden morning light with soft bokeh</p>
+          </div>
+          <div class="card-num">01</div>
+        </div>
+        <div class="card-foot">
+          <div class="card-foot-left">
+            <span class="foot-num">01</span>
+            <span class="foot-title">Morning Cappuccino</span>
+          </div>
+          <span class="foot-tag">Food &amp; Beverage</span>
+        </div>
+      </div>
+
+      <!-- ── ROW 2: two side-by-side ── -->
+      <div class="card-row-2">
+
+        <div class="card">
+          <div class="card-img">
+            <img src="2.jpg" alt="Corporate Vision" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Business &amp; Lifestyle</span>
+              <h3 class="card-name">Corporate Vision</h3>
+              <p class="card-desc">Authentic professional portrait in a bright modern workspace</p>
+            </div>
+            <div class="card-num">02</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">02</span>
+              <span class="foot-title">Corporate Vision</span>
+            </div>
+            <span class="foot-tag">Business</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="3.jpg" alt="Valley at Dawn" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Nature &amp; Landscape</span>
+              <h3 class="card-name">Valley at Dawn</h3>
+              <p class="card-desc">Misty mountain sunrise with dramatic god rays through clouds</p>
+            </div>
+            <div class="card-num">03</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">03</span>
+              <span class="foot-title">Valley at Dawn</span>
+            </div>
+            <span class="foot-tag">Landscape</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── ROW 3: full width ── -->
+      <div class="card card-hero">
+        <div class="card-img">
+          <img src="4.jpg" alt="Nourish Bowl" loading="lazy" />
+          <div class="card-overlay">
+            <span class="card-cat">Food &amp; Health</span>
+            <h3 class="card-name">Nourish Bowl</h3>
+            <p class="card-desc">Overhead flat-lay of a vibrant acai breakfast bowl on white marble</p>
+          </div>
+          <div class="card-num">04</div>
+        </div>
+        <div class="card-foot">
+          <div class="card-foot-left">
+            <span class="foot-num">04</span>
+            <span class="foot-title">Nourish Bowl</span>
+          </div>
+          <span class="foot-tag">Food &amp; Health</span>
+        </div>
+      </div>
+
+      <!-- ── ROW 4: three equal columns ── -->
+      <div class="card-row-3">
+
+        <div class="card">
+          <div class="card-img">
+            <img src="5.jpg" alt="Digital Pulse" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Technology</span>
+              <h3 class="card-name">Digital Pulse</h3>
+              <p class="card-desc">Glowing circuit board with flowing blue data streams</p>
+            </div>
+            <div class="card-num">05</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">05</span>
+              <span class="foot-title">Digital Pulse</span>
+            </div>
+            <span class="foot-tag">Technology</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="6.jpg" alt="Sunrise Warrior" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Wellness &amp; Lifestyle</span>
+              <h3 class="card-name">Sunrise Warrior</h3>
+              <p class="card-desc">Yoga pose on tropical deck at golden hour sunrise</p>
+            </div>
+            <div class="card-num">06</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">06</span>
+              <span class="foot-title">Sunrise Warrior</span>
+            </div>
+            <span class="foot-tag">Wellness</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="7.jpg" alt="The Perfect Bite" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Food &amp; Restaurant</span>
+              <h3 class="card-name">The Perfect Bite</h3>
+              <p class="card-desc">Gourmet burger with dramatic moody restaurant spotlight</p>
+            </div>
+            <div class="card-num">07</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">07</span>
+              <span class="foot-title">The Perfect Bite</span>
+            </div>
+            <span class="foot-tag">Food</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── ROW 5: two side-by-side ── -->
+      <div class="card-row-2">
+
+        <div class="card">
+          <div class="card-img">
+            <img src="8.jpg" alt="Tropical Macro" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Nature &amp; Texture</span>
+              <h3 class="card-name">Tropical Macro</h3>
+              <p class="card-desc">Macro monstera leaf with crystal water droplets in light</p>
+            </div>
+            <div class="card-num">08</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">08</span>
+              <span class="foot-title">Tropical Macro</span>
+            </div>
+            <span class="foot-tag">Nature</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="9.jpg" alt="The Remote Life" loading="lazy" />
+            <div class="card-overlay">
+              <span class="card-cat">Technology &amp; Lifestyle</span>
+              <h3 class="card-name">The Remote Life</h3>
+              <p class="card-desc">Authentic home office bathed in warm afternoon sunlight</p>
+            </div>
+            <div class="card-num">09</div>
+          </div>
+          <div class="card-foot">
+            <div class="card-foot-left">
+              <span class="foot-num">09</span>
+              <span class="foot-title">The Remote Life</span>
+            </div>
+            <span class="foot-tag">Lifestyle</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── ROW 6: full width final ── -->
+      <div class="card card-hero">
+        <div class="card-img">
+          <img src="10.jpg" alt="Marble Luxe" loading="lazy" />
+          <div class="card-overlay">
+            <span class="card-cat">Texture &amp; Background</span>
+            <h3 class="card-name">Marble Luxe</h3>
+            <p class="card-desc">Polished white marble surface with elegant gold and grey natural veining</p>
+          </div>
+          <div class="card-num">10</div>
+        </div>
+        <div class="card-foot">
+          <div class="card-foot-left">
+            <span class="foot-num">10</span>
+            <span class="foot-title">Marble Luxe</span>
+          </div>
+          <span class="foot-tag">Texture &amp; Background</span>
+        </div>
+      </div>
+
+    </div><!-- end .gallery -->
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="about">
+    <div class="about-wrap">
+      <div class="about-left">
+        <span class="label">— About the Portfolio</span>
+        <h2 class="about-title">Images Built<br/><em>for Commerce</em></h2>
+        <div class="about-line"></div>
+      </div>
+      <div class="about-right">
+        <p class="about-p">
+          Every image in this portfolio is crafted with a single purpose — to serve designers, marketers, and brands who demand authentic, high-resolution visuals that actually convert. From food to corporate lifestyle, every frame balances technical perfection with genuine storytelling.
+        </p>
+        <p class="about-p">
+          Specializing in photorealistic commercial imagery across the most in-demand categories. All works are original, 8K resolution, and available for stock licensing worldwide.
+        </p>
+        <div class="spec-grid">
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Food Photography</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Business &amp; Lifestyle</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Nature &amp; Landscape</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Technology</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Wellness &amp; Lifestyle</span>
+          </div>
+          <div class="spec">
+            <span class="spec-icon">◆</span>
+            <span class="spec-text">Textures &amp; Backgrounds</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="contact">
+    <div class="contact-wrap">
+      <div class="contact-glow"></div>
+      <span class="label light">— Get In Touch</span>
+      <h2 class="contact-title">Let's Work<br/><em>Together</em></h2>
+      <p class="contact-sub">Available for licensing, commissions &amp; collaborations worldwide.</p>
+      <a href="mailto:your@email.com" class="btn-primary large">
+        <span>Send a Message</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-wrap">
+      <div class="footer-brand">
+        <div class="footer-logo">VA</div>
+        <div>
+          <p class="footer-name">Visual Alchemy</p>
+          <p class="footer-tagline">Commercial Photography Portfolio</p>
+        </div>
+      </div>
+      <div class="footer-mid">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2025 Visual Alchemy. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
